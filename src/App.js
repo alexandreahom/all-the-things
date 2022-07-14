@@ -129,6 +129,14 @@ const App = () => {
     },
   ])
 
+  const [briansThings, setBriansThings] = useState([
+    {
+      name: "asdfasdfa",
+      image: "https://imgs.xkcd.com/comics/functional.png",  
+      attributes: ["This works"],
+    },
+  ])
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
