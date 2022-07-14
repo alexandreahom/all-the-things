@@ -146,6 +146,14 @@ const App = () => {
     },
   ])
 
+  const [alexsThings, setAlexsThings] = useState([
+    {
+      name: "Alexs",
+      image: "https://imgs.xkcd.com/cars/functional.png",  
+      attributes: ["This will work?!"],
+    },
+  ])
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
